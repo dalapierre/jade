@@ -1,0 +1,479 @@
+{
+    "sprites": [
+        {
+            "name": "floor",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 0,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 0,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "path",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 48,
+                    "y": 0,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 64,
+                    "y": 0,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "unit_fast",
+            "animationSpeed": 0.1,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 48,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 48,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 0,
+                    "y": 48,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 48,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "unit_regular",
+            "animationSpeed": 0.1,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 0,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "unit_slow",
+            "animationSpeed": 0.1,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 0,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "bullet",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "origin": {
+                "x": 7,
+                "y": 7
+            },
+            "frames": [
+                {
+                    "x": 32,
+                    "y": 32,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "tower",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 16,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "castle",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 16,
+                    "y": 16,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "icon_container",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 128,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 128,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 128,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "unit_portraits",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 112,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 112,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 112,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "coins",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "beacon_health",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 64,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "unit_resource",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 16,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 32,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 48,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "start_btn",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 144,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 16,
+                    "y": 144,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "undo_btn",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 32,
+                    "y": 144,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 48,
+                    "y": 144,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "msg_box",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 80,
+                    "y": 0,
+                    "w": 80,
+                    "h": 32
+                }
+            ]
+        },
+        {
+            "name": "stats_icons",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 80,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 96,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 112,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 0,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "select_icon",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 48,
+                    "y": 112,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "round_icon",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 0,
+                    "y": 32,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "effect_container",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 48,
+                    "y": 32,
+                    "w": 24,
+                    "h": 32
+                },
+                {
+                    "x": 72,
+                    "y": 32,
+                    "w": 24,
+                    "h": 32
+                }
+            ]
+        },
+        {
+            "name": "blood_part",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "origin": {
+                "x": 7,
+                "y": 7
+            },
+            "frames": [
+                {
+                    "x": 128,
+                    "y": 96,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "rock",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 48,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 64,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 80,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 96,
+                    "y": 80,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        },
+        {
+            "name": "minerals",
+            "animationSpeed": 0,
+            "texturePath": "assets/sprites",
+            "frames": [
+                {
+                    "x": 48,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 64,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                },
+                {
+                    "x": 80,
+                    "y": 64,
+                    "w": 16,
+                    "h": 16
+                }
+            ]
+        }
+    ]
+}
