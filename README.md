@@ -1,5 +1,8 @@
 # Hackaton project - code name Jade
 
+### Trailer
+https://www.youtube.com/watch?v=9tQZD-lSsUs
+
 ### How to build
 
 Simply run `dotnet build` from the root directory. Alternatively, you can run `dotnet run` to play the game.
